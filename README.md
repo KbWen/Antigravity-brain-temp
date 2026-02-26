@@ -36,6 +36,7 @@
 ## 🧩 檔案結構
 
 - `.agent/CONSTITUTION.md`：核心工程規範。
-- `.agent/workflows/`：Antigravity 工作流定義。
-- `.agents/skills/`：Codex Web 指令入口（Pointer 檔）。
+- `.agent/workflows/`：Antigravity 工作流定義（含 `plan.md`、`test.md` 等）。
+- `.antigravity/`：Antigravity 平台規則（例如 `rules.md`）。
+- `.agents/skills/`：Codex Web 技能定義（`SKILL.md` 與相關設定）。
 - `AGENTS.md`：跨平台通用指令定義。

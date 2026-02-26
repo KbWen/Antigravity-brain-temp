@@ -1,1 +1,4 @@
-../../.agent/skills/systematic-debugging
+DEPRECATED_ARTIFACT_ONLY
+This file is kept for migration history only.
+Do not use this path for runtime skill loading.
+Canonical location: .agents/skills/systematic-debugging/
