@@ -38,11 +38,11 @@ fi
 echo
 
 # ---------- Antigravity ----------
-echo "== [Antigravity] Check workspace rules/workflows (.agent/*) =="
-if [ -d ".agent/rules" ]; then
-  echo "✅ OK: ./.agent/rules/"
+echo "== [Antigravity] Check rules/workflows paths (.antigravity + .agent/workflows) =="
+if [ -f ".antigravity/rules.md" ]; then
+  echo "✅ OK: ./.antigravity/rules.md"
 else
-  echo "❌ MISSING: ./.agent/rules/"
+  echo "❌ MISSING: ./.antigravity/rules.md"
 fi
 if [ -d ".agent/workflows" ]; then
   echo "✅ OK: ./.agent/workflows/"
@@ -61,7 +61,7 @@ else
 fi
 echo
 
-echo "== [Antigravity] Check unrelated folders directly under .agent/ (only rules/ and workflows/ are allowed) =="
+echo "== [Antigravity] Check unrelated folders directly under .agent/ (allow rules/ for backward compatibility) =="
 if [ -d ".agent" ]; then
   unrelated=$(find .agent -mindepth 1 -maxdepth 1 -type d \
     ! -name "rules" ! -name "workflows" 2>/dev/null || true)
@@ -77,7 +77,7 @@ fi
 echo
 
 echo "== Suggested git mv commands (dry suggestions) =="
-[ -d ".agents/rules" ] && echo "git mv .agents/rules .agent/rules"
+[ -d ".agents/rules" ] && echo "git mv .agents/rules .antigravity"
 [ -d ".agents/workflows" ] && echo "git mv .agents/workflows .agent/workflows"
 [ -d ".agent/skills" ] && echo "git mv .agent/skills .agents/skills"
 echo

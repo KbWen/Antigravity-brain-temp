@@ -40,3 +40,11 @@
 - `.antigravity/`：Antigravity 平台規則（例如 `rules.md`）。
 - `.agents/skills/`：Codex Web 技能定義（`SKILL.md` 與相關設定）。
 - `AGENTS.md`：跨平台通用指令定義。
+
+## 🧭 路徑判定原則
+
+- Antigravity 規則檔：`.antigravity/rules.md`
+- Antigravity 工作流：`.agent/workflows/`
+- Codex Skills：`.agents/skills/`
+
+`tools/audit_ai_paths.sh` 會依上述路徑進行檢查，確保文件與稽核腳本一致。
