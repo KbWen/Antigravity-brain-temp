@@ -23,8 +23,7 @@
 ### 能力檔案
 
 - 指令模板：`.agent/superpowers/commands.md`
-- 工作流程：`.agent/workflows/*.md`
-- 功能模組：`.agent/superpowers/features/*.md`
+- 工作流程（Slash Commands）：`.agent/workflows/*.md`
 
 ## 🛡️ 安全與合規
 
