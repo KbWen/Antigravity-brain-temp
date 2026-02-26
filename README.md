@@ -2,6 +2,8 @@
 
 > **極簡版 AI Agent 工作流模板，專為 Google Antigravity 與 Codex Web 優化。**
 
+[English Version](./README_EN.md)
+
 ## 🎯 專案理念
 
 本模板將 AI Agent 的開發流程標準化，透過「指令優先」與「規範先行」的核心思維，讓開發過程更可控、更可追溯。
@@ -22,7 +24,6 @@
    請遵循 AGENTS.md 與 .agent/CONSTITUTION.md 的規範。
    先執行 /bootstrap。
    ```
-
 
 ## 🧪 用 GitHub Repository Template 建立自己的 Repo
 
