@@ -22,7 +22,6 @@
 
 ### 能力檔案
 
-- 指令模板：`.agent/superpowers/commands.md`
 - 工作流程（Slash Commands）：`.agent/workflows/*.md`
 
 ## 🛡️ 安全與合規
@@ -37,8 +36,8 @@
 
 ## 🧩 技能目錄
 
-- Antigravity：`.agent/skills/<skill>/SKILL.md`
-- Codex：`.agents/skills`（指向 `.agent/skills`）
+- Antigravity：以工作流程形式提供能力，路徑為 `.agent/workflows/*.md`
+- Codex：`.agents/skills/<skill>/SKILL.md`
 
 ## 🏗️ 輸出規範
 
