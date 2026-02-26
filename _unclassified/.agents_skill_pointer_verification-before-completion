@@ -1,4 +1,0 @@
-DEPRECATED_ARTIFACT_ONLY
-This file is kept for migration history only.
-Do not use this path for runtime skill loading.
-Canonical location: .agents/skills/verification-before-completion/
