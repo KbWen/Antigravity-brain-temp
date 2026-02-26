@@ -23,6 +23,19 @@
    先執行 /bootstrap。
    ```
 
+
+## 🧪 用 GitHub Repository Template 建立自己的 Repo
+
+若您想用「模板方式」建立自己的專案（而非手動複製檔案）：
+
+1. 在 GitHub 開啟此模板 repo。
+2. 點選 **Use this template** → **Create a new repository**。
+3. 設定新 repo 名稱與可見性後建立。
+4. clone 你的新 repo，直接開始使用本模板流程。
+
+> 本模板核心是 `.agent`, `.agents`, `.antigravity`, `AGENTS.md`。
+> `.github/` 屬於可選配，不是本模板運作的必要條件。
+
 ## 🛠️ 核心指令
 
 | 指令 | 說明 |

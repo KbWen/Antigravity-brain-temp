@@ -26,7 +26,7 @@
 
 ## 🛡️ 品質清單 (Checklist)
 
-- [ ] 遵循 `.agent/rules/engineering_guardrails.md` 的憲法準則。
+- [ ] 遵循 `.agent/CONSTITUTION.md` 的憲法準則。
 - [ ] 程式碼具備良好的可讀性與註解。
 - [ ] 輸出中不包含任何 Secrets 或個人敏感資訊。
 - [ ] 已補齊必要的測試案例。
