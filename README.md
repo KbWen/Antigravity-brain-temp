@@ -10,6 +10,9 @@
 - **Think Before Code**: 先規劃，後實作，避免盲目寫碼。
 - **Context Hygiene**: 保持最小上下文，降低噪音。
 
+> **參考來源**
+> 本模板理念參考自 [Superpowers 專案](https://github.com/obra/superpowers)。
+
 ## 🚀 快速上手
 
 1. **部署到專案**：將 `.agent`, `.agents`, `.antigravity`, `AGENTS.md` 複製到您的專案根目錄。
